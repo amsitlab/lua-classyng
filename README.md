@@ -1,4 +1,4 @@
-#         Classy -- Lua Module for Class-Based OO Programming        #
+#         Classyng -- Lua Module for Class-Based OO Programming        #
 
 ##                           Introduction                           ##
 
@@ -51,7 +51,7 @@ This module doesn't set any global variables, so you have to store the
 return value of `require` somewhere, e.g. in a local variable `class`.
 
 ```lua
-local class = require( "classy" )
+local class = require( "classyng" )
 ```
 
 Result of the call to `require` is a [functable][1], a table that can
@@ -308,10 +308,10 @@ Comments and feedback are always welcome.
 
 ##                              License                             ##
 
-`classy` is *copyrighted free software* distributed under the MIT
+`classyng` is *copyrighted free software* distributed under the MIT
 license (the same license as Lua 5.1). The full license text follows:
 
-    classy (c) 2013-2014 Philipp Janda
+    classyng (c) 2013-2014 Philipp Janda
 
     Permission is hereby granted, free of charge, to any person obtaining
     a copy of this software and associated documentation files (the
