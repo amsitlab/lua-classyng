@@ -19,7 +19,7 @@ dependencies = {
 build = {
   type = "builtin",
   modules = {
-    classy = "src/classyng.lua"
+    classyng = "src/classyng.lua"
   }
 }
 
