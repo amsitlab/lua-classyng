@@ -1,7 +1,7 @@
-package = "classy"
+package = "classyng"
 version = "scm-0"
 source = {
-  url = "git://github.com/siffiejoe/lua-classy.git",
+  url = "git://github.com/amsitlab/lua-classyng.git",
 }
 description = {
   summary = "A library for class-based OO.",
@@ -10,7 +10,7 @@ description = {
     programming, featuring multiple inheritance with fast method
     lookups, and multimethods.
   ]],
-  homepage = "https://github.com/siffiejoe/lua-classy/",
+  homepage = "https://github.com/amsitlab/lua-classynb/",
   license = "MIT"
 }
 dependencies = {
@@ -19,7 +19,7 @@ dependencies = {
 build = {
   type = "builtin",
   modules = {
-    classy = "src/classy.lua"
+    classy = "src/classyng.lua"
   }
 }
 
